@@ -1,0 +1,282 @@
+
+
+
+body {
+    background-image: url(img/fondo12\ gif.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo {
+   
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+
+    }
+    
+.titulo {
+    font-size: 30px;
+    color:  rgb(2, 117, 60);
+    font-weight: 700;
+
+
+
+}    
+   
+.imglogo {
+    width: 80px;       
+        
+}
+  
+.menu {
+    margin: auto;
+    
+    
+}
+ul, ol {
+    list-style: none;
+}
+.lista1 li a {
+    background-color:rgb(2, 117, 60);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+  
+    
+
+}
+
+.lista1 > li  {
+    float: left;  
+     
+}
+
+.lista1 li  a:hover {
+    background-color:rgb(184, 235, 161);
+    color: black;
+    padding: 10px 8px;
+}
+.lista1 li ul {
+    display: none;
+    justify-content: center;
+    min-width: 10%;
+    z-index:3;
+    position: absolute;
+    
+}
+.lista1 li:hover > ul {
+display: block;
+
+}
+
+.tema {
+    width: 80%;
+    }
+
+.seccion-1 {
+    clear: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+        
+}
+
+.piez1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+   
+}
+
+.piez{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.imgpiez {
+    width: 50%;
+   
+    justify-content: right;
+}
+.redes1 {
+    width: 30px
+    
+
+}
+.redes2 {
+    width: 30px
+ 
+
+}
+
+
+
+.vocabulario {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+.concepto1 {
+    color: rgb(255, 255, 255);
+    border: dotted;
+    border-width: 5px;
+    border-radius: 10px 100px / 120px;
+    background-clip: border-box;
+    background: rgb(4, 123, 128);
+    width: 500px;
+    display: flex;
+    justify-content: center; 
+}
+.conceptos1 {
+    clear: left; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concepto2  {
+    width: 70%;
+       
+}
+
+.conceptos2 {
+    display: flex;
+    justify-content: center;    
+
+}
+.conceptos3 {
+    display: flex;
+    justify-content: center;    
+
+}
+.conceptos4 {
+    display: flex;
+    justify-content: center;    
+
+}
+.evolucion {
+    display: flex;
+    justify-content:center;
+  }
+
+.evo {
+    width: 70%;
+}
+
+
+
+.interfaz {
+    color:  rgb(2, 117, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.puntero {
+    width: 130px;
+}
+.puntero1 {
+    width: 130px;
+    height: 60px;
+    
+}
+.mouse1 {
+    background-color:rgb(100, 180, 140);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.mouse2 {
+    background-color:rgb(35, 153, 94);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+.mouses0{
+    display: flex;
+    color: aliceblue;
+    text-align: justify;
+    
+
+}
+.pmou {
+    font: condensed 120% sans-serif;
+    color: black;
+    font-family: cursive;
+}
+
+.mouses1{
+    display: flex;
+    color: aliceblue;
+    
+
+}
+.mougif {
+    width: 65%;
+}
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #eff1f1;
+    text-align: center;
+  }
+  .container {
+    max-width: 50%; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 10px; /* Agrega un borde al contenedor */
+         /* Agrega bordes redondeados al contenedor */
+    border: dotted rgb(247, 245, 245);
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    color: aliceblue;
+  }
+  .form-group {
+    margin-bottom:15px; /* Espacio entre cada input */
+
+  }
+  label {
+    margin-bottom: 15px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    width: 600px; /* Define el ancho máximo del input */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    /* Coloca estilos a tu botón */
+    padding-left: 10px  
+    
+}
+
+  button:hover {
+    background-color: #0f7060;
+  }
+  .seccion-formulario {
+  background-image: url(img/formulario\ fondo.jpg);
+  
+  }
